@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="altarmod"
+version="1.0.0"
+displayName="Altar Admin"
+description='''
+Алтарь с подношениями, админ-GUI, просмотр инвентарей и вечные эффекты для RP-сервера.
+'''
+
+[[dependencies.altarmod]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.altarmod]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.22)"
+ordering="NONE"
+side="BOTH"
